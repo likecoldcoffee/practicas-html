@@ -1,0 +1,20 @@
+.btn-primary {
+    background-color: #D9D9D9;
+    color: black;
+    border: none;
+    border-width: .2rem;
+    border-radius: 2rem;  
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover{
+    background-color: #bfbfbf;
+}
+.img-fluid {
+    width: 31.25rem;
+    height: auto;
+}
+.carousel-inner img {
+    height: auto; 
+    object-fit: cover;
+  }
