@@ -1,0 +1,147 @@
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  background-color: antiquewhite;
+}
+.img {
+  width: 95%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+.h1__home {
+  margin-top: 15px;
+  font-family: "Pacifico", cursive;
+  font-size: 64px;
+  color: #4e3c2f;
+  text-align: center;
+}
+.nav {
+  font-size: 30px;
+  cursor: pointer;
+  color: #f4acb7;
+  font-family: Arial, sans-serif;
+}
+.body {
+  background-color: antiquewhite;
+  margin-left: 2%;
+  font-family: Arial, sans-serif;
+}
+.buscador {
+  font-size: 30px;
+  cursor: pointer;
+  color: #f4acb7;
+  margin-right: 20px;
+  font-family: Arial, sans-serif;
+}
+.h2 {
+  font-size: 30px;
+  color: #4e3c2f;
+  font-family: Arial, sans-serif;
+}
+.img2 {
+  width: 50%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+}
+.parrafo {
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  background-color: antiquewhite;
+  color: #4e3c2f;
+}
+
+table caption {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #4e3c2f;
+}
+
+table th,
+table td {
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #4e3c2f;
+}
+
+table thead th {
+  background-color: rgb(232, 206, 173);
+  color: #4e3c2f;
+  font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: rgb(232, 206, 173);
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+table tbody tr:hover {
+  background-color: #4e3c2f;
+  color: antiquewhite;
+  cursor: pointer;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__label {
+  margin: 1% 0;
+  font-weight: bold;
+}
+.form__input,
+.form__textarea {
+  width: 95%;
+  padding: 2%;
+  margin-bottom: 2%;
+  border: 2px solid #ffb6c1;
+  border-radius: 1%;
+  outline: none;
+}
+.form__input:focus,
+.form__textarea:focus {
+  border-color: #ff69b4;
+}
+
+.form__submit {
+  background-color: #ff69b4;
+  color: #ffffff;
+  border: none;
+  width: 99.1%;
+  padding: 2%;
+  border-radius: 1%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.form__submit:hover {
+  background-color: #ff1493;
+}
+.footer {
+  text-align: center;
+  padding: 2%;
+  background-color: antiquewhite;
+  color: #4e3c2f;
+  border-top: 0.5em solid rgb(232, 206, 173);
+  margin-top: 5%;
+}

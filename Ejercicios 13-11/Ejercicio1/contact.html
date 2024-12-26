@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Ejemplo web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="h1" aria-label="Página de contacto"> 🌸Contáctanos🌸</h1>
+      <nav class="nav">
+        <ul class="nav__list" aria-label="Navegador">
+          <li class="nav__item"><a href="home.html">Home</a></li>
+          <li class="nav__item"><a href="services.html">Services</a></li>
+          <li class="nav__item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+        <h2 class="h2">¡Queremos saber sobre ti!💖</h2>
+        <form class="form">
+            <label for="name" class="form__label">Nombre:</label><br>
+            <input type="text" id="name" name="name" required class="form__input"><br><br>
+            <label for="email" class="form__label">E-mail:</label><br>
+            <input type="email" id="email" name="email" required class="form__input"><br><br>
+            <label for="message" class="form__label">Mensaje:</label><br>
+            <textarea id="message" name="message" rows="4" class="form__textarea"></textarea><br><br>
+            <input type="submit" value="Enviar 💌" class="form__submit">
+        </form>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 Ejemplo Web</p>
+      </footer>
+  </body>
+</html>

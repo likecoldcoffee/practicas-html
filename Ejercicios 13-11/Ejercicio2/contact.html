@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cocina con Inés</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="h1__home">🌸Cocina con Inés🌸</h1>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="home.html" aria-label="Ruta a home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" aria-label="Ruta a Services">Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a href="recetas.html" aria-label="Ruta a Recetas">Recetas</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" aria-label="Ruta a Contact">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="contact" role="region" aria-labelledby="contact-title">
+        <h2 class="h2" id="contact-title" aria-label="Formulario de contacto">
+          Contáctanos💖
+        </h2>
+        <form
+          class="form"
+          action="/submit_form"
+          method="post"
+          aria-label="Formulario de contacto para consultas"
+        >
+          <label class="form__label" for="name" aria-label="Nombre completo"
+            >Nombre:</label
+          ><br />
+          <input
+            class="form__input"
+            type="text"
+            id="name"
+            name="name"
+            required
+            aria-label="Campo de nombre"
+          /><br />
+
+          <label class="form__label" for="email" aria-label="Correo electrónico"
+            >Email:</label
+          ><br />
+          <input
+            class="form__input"
+            type="email"
+            id="email"
+            name="email"
+            required
+            aria-label="Campo de correo electrónico"
+          /><br />
+
+          <label class="form__label" for="message" aria-label="Mensaje"
+            >Mensaje:</label
+          ><br />
+          <textarea
+            class="form__textarea"
+            id="message"
+            name="message"
+            rows="4"
+            required
+            aria-label="Campo de mensaje"
+          ></textarea
+          ><br />
+
+          <input
+            class="form__submit"
+            type="submit"
+            value="Enviar💌"
+            aria-label="Enviar formulario de contacto"
+          />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>&copy; 2024 Cocina con Inés</p>
+    </footer>
+  </body>
+</html>
