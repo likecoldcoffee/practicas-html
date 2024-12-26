@@ -1,0 +1,97 @@
+/** MAIN SECTIONS **/
+.header {
+    position: fixed;
+    font-weight: bold;
+    width: 100%; 
+}
+.section-one {
+    text-align: center;
+    height: fit-content;
+    padding: 2rem;
+}
+.content__title {
+    font-weight: bold;
+}
+.content__subtitle {
+    font-weight: 200;
+}
+.content__subtitle::after {
+    content: "🍒";
+}
+.section-two {
+    height: fit-content;
+    padding: .625rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    align-items: start;  
+}
+.subtitle-two {
+    font-weight: 200;
+    margin: 0; 
+}
+.section-three {
+    text-align: center;
+}
+.section-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem;
+    align-items: start; 
+    padding: .625rem; 
+}
+.column {
+    text-align: left;
+    border-left: .0625rem solid #D9D9D9; 
+    padding-left: 1rem;
+}
+
+/** BUTTONS **/
+
+.btn-primary {
+    background-color: #D9D9D9;
+    border-color: solid #0B0514;
+    border-width: .2rem;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background-color: #0B0514;
+    color: #D9D9D9;
+    border-color: solid #0B0514;
+}
+.btn-secondary {
+    background-color: #0B0514;
+    color: #D9D9D9;
+    height:5rem;
+    width: 30rem;
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background-color: #D9D9D9;
+    color: #0B0514;
+    border-color: #0B0514;
+}
+.btn-third {
+    background-color: #0B0514;
+    color: #D9D9D9;
+    border-width: .2rem;
+    border-radius: 2rem;
+    height: 5rem;
+    width: 18.5rem;
+    cursor: pointer;
+}
+.btn-third:hover {
+    background-color: #D9D9D9;
+    color: #0B0514;
+    border-color: #0B0514;
+}
+/* FOOTER*/
+.footer {
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
